@@ -229,7 +229,7 @@ def main(argv):
     
     gamma = 2.5
     ns_max = 15
-    ns_mul = 4
+    ns_mul = 2
     
     xoff = 0 
     yoff = 0 
