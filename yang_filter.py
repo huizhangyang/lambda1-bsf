@@ -292,4 +292,4 @@ if __name__ == "__main__":
    main(sys.argv[1:])
    
    # usage:
-   # python yang_filter.py --src=E:/20200425_Guangdong_IW1_VH.tif --prefix=demo_ --gamma=2.5 --plot_flag=1 --ns_max=15 --ns_mul=2 --l_tif_blk=8000,8000 --lblk=500,500 --lpd=50,50  --xoff=0 --yoff=0 --xsize=inf --ysize=inf     
+   # python yang_filter.py --src=E:/20200425_IW1_VH.tif --prefix=demo_ --gamma=2.5 --plot_flag=1 --ns_max=15 --ns_mul=2 --l_tif_blk=8000,8000 --lblk=500,500 --lpd=50,50  --xoff=0 --yoff=0 --xsize=inf --ysize=inf     
