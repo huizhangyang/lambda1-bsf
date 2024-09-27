@@ -223,7 +223,7 @@ def tif_block_lambda1_bsf(src_path,dst_prefix='',plot_flag=1,
 
        
 def main(argv):  
-    src = 'E:/20200425_Guangdong_IW1_VH.tif'
+    src = ''
     prefix = ''
     plot_flag = 1
     
@@ -247,11 +247,11 @@ def main(argv):
                                                    'xoff=','yoff=','xsize=','ysize=',
                                                    'lblk=','lpd=','l_tif_blk='])
     except getopt.GetoptError:
-       print('test.py -src -prefix -plot_flat -gamma -ns_max -ns_mul -xoff -yoff -xsize -ysize -l_tif_blk -lblk -lpd')
+       print('yang_filter.py -src -prefix -plot_flat -gamma -ns_max -ns_mul -xoff -yoff -xsize -ysize -l_tif_blk -lblk -lpd')
        sys.exit(2)
     for opt, arg in opts:
        if opt == '-h':
-          print('test.py -src -prefix -plot_flag -gamma -ns_max -ns_mul -xoff -yoff -xsize -ysize -l_tif_blk -lblk -lpd')
+          print('yang_filter.py -src -prefix -plot_flag -gamma -ns_max -ns_mul -xoff -yoff -xsize -ysize -l_tif_blk -lblk -lpd')
           sys.exit()
        elif opt in ("-s", "--src"):
           src = arg
