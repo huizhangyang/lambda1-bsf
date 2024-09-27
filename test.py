@@ -1,6 +1,6 @@
 import yang_filter as yf
 
-src = 'E:/20200425_Guangdong_IW1_VH.tif'
+src = 'E:/20200425_IW1_VH.tif'
 prefix = 'demo_'
 plot_flag = 1
 # using the default parameters
